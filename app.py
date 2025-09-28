@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 
-st.title('House Price Predictor')
+st.title('BoostHome-House Price Predictor Tool')
 
 new_df=joblib.load('new_df.pkl')
 df=joblib.load('df.pkl')
